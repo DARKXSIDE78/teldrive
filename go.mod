@@ -1,4 +1,4 @@
-module github.com/DARKXSIDE78/teldrive
+module github.com/tgdrive/teldrive
 
 go 1.23
 
