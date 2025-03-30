@@ -1,6 +1,6 @@
-module github.com/tgdrive/teldrive
+module github.com/DARKXSIDE78/teldrive
 
-go 1.24
+go 1.23
 
 require (
 	github.com/Masterminds/semver/v3 v3.3.1
