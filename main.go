@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/DARKXSIDE78/teldrive/cmd"
+	"github.com/tgdrive/teldrive/cmd"
 )
 
 func main() {
