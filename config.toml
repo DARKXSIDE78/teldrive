@@ -10,6 +10,7 @@ enable = true
 folder-size-interval = '2h'
 
 [db]
+data-source = "postgresql://postgres:DARKXSIDE78@db.gvavwhtqpxmxvvuwvleb.supabase.co:5432/postgres"
 log-level = 'info'
 prepare-stmt = true
 
@@ -21,8 +22,8 @@ max-open-connections = 25
 
 [jwt]
 session-time = '30d'
-secret = ''
-allowed-users = []
+secret = '89bb03a8b5d4dd4163f32ee2a3d6f3db4034a61585f967bd906fe228910cf899'
+allowed-users = [DARKXSIDE78]
 
 [log]
 level = 'info'
@@ -34,6 +35,9 @@ port = 8080
 read-timeout = '1h'
 write-timeout = '1h'
 
+[tg.uploads]
+encryption-key = 'KxnACHT_v3x1GhyKNUW1PYLUAAmzq9Si'
+
 [tg]
 pool-size = 8
 rate = 100
@@ -44,14 +48,3 @@ storage-file = ''
 proxy = ''
 rate-limit = true
 reconnect-timeout = '5m'
-
-[tg.stream]
-buffers = 8
-chunk-timeout = '20s'
-
-[tg.uploads]
-multi-threads = 0
-encryption-key = ''
-max-retries = 10
-retention = '7d'
-threads = '8'
