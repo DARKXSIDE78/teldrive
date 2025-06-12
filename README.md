@@ -1,4 +1,5 @@
 # Teldrive
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tgdrive/teldrive)
 
 Teldrive is a powerful utility that enables you to organise your telegram files and much more.
 
@@ -36,3 +37,13 @@ Feel free to contribute to this project.See [CONTRIBUTING.md](CONTRIBUTING.md) f
 ## Donate
 
 If you like this project small contribution would be appreciated [Paypal](https://paypal.me/redux234).
+
+## Star History
+
+<a href="https://www.star-history.com/#tgdrive/teldrive&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=tgdrive/teldrive&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=tgdrive/teldrive&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=tgdrive/teldrive&type=Date" />
+ </picture>
+</a>
