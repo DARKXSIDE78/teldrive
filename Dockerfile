@@ -1,9 +1,7 @@
-FROM golang:1.23-alpine AS builder
+FROM golang:1.22-alpine AS builder
 WORKDIR /app
 COPY . .
-RUN go mod download
-RUN go get github.com/tgdrive/teldrive/pkg/services
-RUN go get github.com/tgdrive/teldrive/ui
+RUN go mod tidy
 RUN go build -o teldrive .
 
 FROM alpine:latest
