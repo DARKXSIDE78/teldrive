@@ -1,11 +1,3 @@
-FROM golang:1.22-alpine AS builder
-WORKDIR /app
-COPY . .
-RUN go mod tidy
-RUN go build -o teldrive .
-
-FROM alpine:latest
-WORKDIR /root/
+FROM ghcr.io/tgdrive/teldrive:latest
 EXPOSE 8080
-COPY --from=builder /app/teldrive .
-CMD ["./teldrive"]
+CMD ["teldrive", "run"]
