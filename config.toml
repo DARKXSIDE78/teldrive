@@ -1,6 +1,6 @@
 [db]
 data-source = "postgresql://postgres.mzrowboqpoljiiawfmsh:DARKXSIDE78@aws-1-ap-south-1.pooler.supabase.com:5432/postgres"
-prepare-stmt = false  # required, since PREPARE isn’t supported in pooled mode
+prepare-stmt = false
 
 [db.pool]
 enable = false
@@ -20,3 +20,6 @@ ntp = false
 disable-stream-bots = false
 rate-limit = true
 reconnect-timeout = '5m'
+
+[server]
+listen = "0.0.0.0:8080"
