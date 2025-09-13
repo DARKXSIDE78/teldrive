@@ -8,5 +8,6 @@ RUN go build -o teldrive .
 
 FROM alpine:latest
 WORKDIR /root/
+EXPOSE 8080
 COPY --from=builder /app/teldrive .
 CMD ["./teldrive"]
