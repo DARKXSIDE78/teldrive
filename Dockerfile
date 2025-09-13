@@ -1,3 +1,4 @@
 FROM ghcr.io/tgdrive/teldrive:latest
 EXPOSE 8080
-CMD ["teldrive", "run"]
+COPY config.toml /app/config.toml
+CMD ["teldrive", "run", "-c", "/app/config.toml"]
