@@ -115,6 +115,4 @@ require (
 	rsc.io/qr v0.2.0 // indirect
 )
 
-tool github.com/ogen-go/ogen/cmd/ogen
-
 replace gorm.io/driver/postgres => github.com/divyam234/postgres v0.0.0-20250520164515-3701d5363f8d
