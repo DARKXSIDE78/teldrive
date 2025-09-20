@@ -4,6 +4,9 @@ prepare-stmt = false
 
 [db.pool]
 enable = false
+max-idle-connections = 25
+max-lifetime = '10m'
+max-open-connections = 25
 
 [jwt]
 allowed-users = ["KamiKaito", "WaifuKami", "OrewaRonin", "FraxxShadow", "GishinUnhara", "AnimeMonth"]
@@ -11,6 +14,7 @@ secret = "155da5dd439f7aa25959459dd39fe017"
 
 [tg.uploads]
 encryption-key = "xoD1IpJjNTfi0qo-JQPvQ5jbS3fdklII"
+max-retries = 10
 
 [tg]
 pool-size = 8
@@ -20,6 +24,10 @@ ntp = false
 disable-stream-bots = false
 rate-limit = true
 reconnect-timeout = '5m'
+
+[tg.stream]
+multi-threads = 6
+stream-buffers = 20
 
 [server]
 listen = "0.0.0.0:8080"
