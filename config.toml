@@ -6,7 +6,7 @@ prepare-stmt = false
 enable = false
 
 [jwt]
-allowed-users = ["KamiKaito"]
+allowed-users = ["KamiKaito", "WaifuKami", "OrewaRonin", "FraxxShadow", "GishinUnhara", "AnimeMonth"]
 secret = "155da5dd439f7aa25959459dd39fe017"
 
 [tg.uploads]
